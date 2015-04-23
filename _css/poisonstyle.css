@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #F8F2E4;
+	width: 1366px;
+	height: 768px	;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow:hidden;
+}
+.bar-wrapper {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display:block;	
+}
+
+#bar-wrapper #scroll-to-the-left img:hover, #bar-wrapper #scroll-to-the-right img:hover {
+	opacity:1;
+	}
+#bar-wrapper #scroll-to-the-left img {
+	
+	position: absolute;
+	top: 70%;
+	left:50px;
+	height: 100px;
+	width: 100px;
+	margin-top: -50;
+	z-index: 1000;
+	cursor: pointer;
+	opacity:.5;
+	
+}
+#bar-wrapper #scroll-to-the-right img {
+	position: absolute;
+	top: 70%;
+	right: 50px;
+	height: 100px;
+	width: 100px;
+	margin-top: -50;
+	z-index: 1000;
+	cursor: pointer;
+	opacity: .5;
+	
+}
+
+
+#bar-wrapper #table {
+	background-color: #86B3B3;
+	position: absolute;
+	height: 70px;
+	width: 6000px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 10;
+}
+#bar-wrapper #bottles {
+	transform: translateZ(0px)
+	translateX();
+	position: absolute;
+	width: 6000px;
+	left: 107px;
+	bottom: 0px;
+	z-index: 500;	
+}
+.slider {
+	display: block;
+	
+}
