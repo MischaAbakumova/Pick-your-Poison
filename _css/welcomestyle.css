@@ -1,0 +1,14 @@
+body{
+background-color: black
+}
+
+#logo{
+display: block;
+	text-align: center;
+	vertical-align: middle;
+}
+#soon{
+color: white;
+text-align: center;
+
+}

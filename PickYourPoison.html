@@ -7,27 +7,27 @@
 <title>Pick your poison</title>
 <link href="_css/poisonstyle.css" rel="stylesheet" type="text/css">
 <script src="_vendors/_javaSc/jquery-1.11.2.js"></script>
-
 </head>
 
 
 <body>
-
   <div id="bar-wrapper" fit>
   
      <div id="introduction">
-          <h1 class="logo">Pick your poison</h1>
-          <div class="weight slider">
-           <h2>Enter your weight <input type="range" id ="Weight" value="90"></div></h2> 
-           <div class="drunk slider">
-          <h2>How drunk do you want to be?<input type = "range" id = "How drunk" value = "tipsy"></div></h2>
+          <div id ="logo"><img width="1027" height="171" src="_images/test-01.png" ></div>
           
-          </div>
+            <div class="slider">
+              <h2>Enter your weight <input type="range" id ="Weight" value="90"></h2> 
+              <h2>How drunk do you want to be?<input type = "range" id = "How drunk" value = "tipsy"></h2>
+            </div>
+     </div>
 
-     <div id= "scroll-to-the-left"><img src= "_images/arrows_left_sized.png"  alt="arrow left" width="100"></div>
-     <div id= "scroll-to-the-right"><img src="_images/arrows_right_sized.png" width="100" height="100" alt="arrow right"></div>
+    <div id= "scroll-to-the-left"><img src= "_images/arrows_left_sized.png"  width="100" height="100"></div>
+     <div id= "scroll-to-the-right"><img src="_images/arrows_right_sized.png" width="100" height="100"></div>
 
      <div id="bottles">
+     <div id="container">
+     
       <a href="test_cocktail.html" title="generate a cocktail"><img name="Whisky" src="_images/whisky-progress-Recovered.png" width="230" height="460" alt=""></a>
       <a href="test_cocktail.html" title="generate a cocktail"><img name="Rum" src="_images/bacardi.png" width="150" height="540" alt=""></a>
       <a href="test_cocktail.html" title="generate a cocktail"><img name="Vodka" src="" width="250" height="500" alt=""></a>
@@ -51,11 +51,16 @@
       <a href="test_cocktail.html" title="generate a cocktail"><img name="Sherry" src="" width="250" height="500" alt=""></a>
       <a href="test_cocktail.html" title="generate a cocktail"><img name="Cachaca" src="" width="250" height="500" alt=""></a>
       <a href="test_cocktail.html" title="generate a cocktail"><img name="Beer" src="" width="250" height="500" alt=""></a>
-
-
-
+      </div>
+    </div>
+ <div id="table"></div>    
+    
 </div>
-<div id="table"></div>
-</div>
+
+<script>
+	$(document).ready(function(){
+		alert($("#container").scrollLeft()+ "px");
+	});
+</script>
 </body>
 </html>
